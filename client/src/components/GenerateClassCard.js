@@ -21,7 +21,7 @@ function GenerateClassCard({ classNum, favList, setFavList, handleSelectedClasse
 
     useEffect(() => {
         // get data from API
-        fetch('course/course=' + classNum)
+        fetch('api/course/course=' + classNum)
         .then(res => res.json())
         .then(data => {
             setClassData(data);

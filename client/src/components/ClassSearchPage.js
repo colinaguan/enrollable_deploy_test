@@ -23,7 +23,7 @@ function ClassSearchPage({ favList, setFavList }) {
     // store lists of filters
     useEffect(() => {
         // get departments
-        fetch('/department/details')
+        fetch('api/department/details')
         .then(res => res.json())
         .then(departments => {
             setDep(departments);
@@ -31,7 +31,7 @@ function ClassSearchPage({ favList, setFavList }) {
         .catch((error) => { console.log(error) });
 
         // get GE
-        fetch('/course/ge')
+        fetch('api/course/ge')
         .then(res => res.json())
         .then(ges => {
             setGE(Object.keys(ges));
@@ -39,7 +39,7 @@ function ClassSearchPage({ favList, setFavList }) {
         .catch((error) => { console.log(error) });
 
         // get types
-        fetch('/course/type')
+        fetch('api/course/type')
         .then(res => res.json())
         .then(types => {
             setType(types)
@@ -60,7 +60,7 @@ function ClassSearchPage({ favList, setFavList }) {
         console.log(fFav);
 
         // API filtering
-        fetch('department?dep=' + fDep + '&type=' + fType + '&ge=' + fGE)
+        fetch('api/department?dep=' + fDep + '&type=' + fType + '&ge=' + fGE)
         .then(res => res.json())
         .then(courses => {
             var cardData = courses;

@@ -64,7 +64,7 @@ function GenerateSchedulesPage({ favList, setFavList }) {
             generateRequest.classes = selectedClasses;
             console.log(generateRequest);
             // TODO: implement API generate route
-            fetch('generate', {
+            fetch('api/generate', {
                 method: 'POST',
                 headers: {
                     'Accept': 'application/json',
