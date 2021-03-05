@@ -1,0 +1,14 @@
+.page-pill-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+button.btn-outline-purple {
+    border-color: #673ab7;
+    color: #673ab7;
+}
+
+button.btn-outline-purple:hover {
+    background-color: #673ab7;
+    color: white;
+}

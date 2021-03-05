@@ -1,0 +1,27 @@
+.generate-filter-form {
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.first-time-picker {
+    margin: 0;
+}
+
+.second-time-picker {
+    margin: 0;
+}
+
+button.add-button {
+    width: 100%;
+}
+
+button.btn-outline-purple {
+    border-color: #673ab7;
+    color: #673ab7;
+}
+
+button.btn-outline-purple:hover {
+    background-color: #673ab7;
+    color: white;
+}

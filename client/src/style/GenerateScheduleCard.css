@@ -1,0 +1,41 @@
+.schedule-card {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: none !important;
+  box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+}
+div.schedule-card-body {
+  padding: 2rem;
+}
+
+div.schedule-class-title {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.schedule-section-title {
+  font-weight: 500;
+}
+
+.schedule-card-text {
+  margin-bottom: 2rem;
+}
+
+button.view-schedule {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 0px 0px .25rem .25rem;
+}
+
+button.btn-outline-purple {
+  border-color: #673ab7;
+  color: #673ab7;
+}
+
+button.btn-outline-purple:hover {
+  background-color: #673ab7;
+  color: white;
+}

@@ -1,0 +1,97 @@
+.loginBlock {
+	display: block;
+    width: 350px;
+    margin: auto;
+    text-align: center;	
+    border: none;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.tabs {
+    display: table; 
+    table-layout: fixed; 
+    width: 100%; 
+    border: #6D28FF;
+    background-color: none;
+}
+
+.tabs > li {
+    transition-duration: .10s;
+    display: table-cell;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 25px 2px 25px;
+    cursor: pointer;
+    color: #6D28FF;
+    background-color: none;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+  
+}
+
+.tabs > li.active {
+    color: #FFF;
+    background-color: #6D28FF;
+}
+  
+.formBlock {
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    padding-top: 35px;
+    background-color: #6D28FF;
+}
+
+form input {
+    border: none;
+    border-radius: 18px;
+    padding: 8px 12px;
+    margin: 8px 0px; 
+    background: #ffffff;
+    font-size: 14px;
+    width: 230px;     
+}
+
+form #first, #last {
+    margin: 12px 6px;
+    width: 105px;
+}
+
+form #signupEmail{
+    margin-top: 16px;
+}
+ 
+#signup, #login{
+    color: #FFFFFF;
+    background-color: #4513b1;
+    font-size: 16px;
+    padding: 8px;
+    margin: 14px 0px 24px;
+    border: none;
+    border-radius: 18px;
+    width: 100px; 
+    cursor: pointer;
+    font-weight: 400;
+}
+.errorMsg{
+    color: rgb(255, 92, 92);
+    margin-top: 14px;
+    margin-bottom: 0px;
+}
+
+.alertBox{
+    width: 600px;
+}
+
+
+
